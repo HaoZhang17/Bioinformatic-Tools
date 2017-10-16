@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 '''
-This python script runs with Python3 to extract unique reads from the SAM format file. There should be a subdirectory named "header" to store the header information of the SAM file. The header information can be extracted using Samtools (samtools view -H in.bam > out.sam). Now this script only support one SAM file as the input now!
+This python script runs with Python3 to extract unique reads from the SAM format file. 
+There should be a subdirectory named "header" to store the header information of the SAM file. 
+The header information can be extracted using Samtools (samtools view -H in.bam > out.sam). 
+Now this script only support one SAM file as the input now!
 '''
 
 import sys, os, time
