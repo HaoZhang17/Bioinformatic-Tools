@@ -1,7 +1,6 @@
 #! usr/bin/env python3
 
-import re
-import argparse
+import re, argparse
 
 parser = argparse.ArgumentParser(
     description = '''This script is used for extract junction from gtf files.''',
